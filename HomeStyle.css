@@ -1,0 +1,305 @@
+
+
+.pos{
+top: 0px;
+left: 0px;
+height: 140px;
+width: 100%;
+}
+.color-me {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+   margin-left: 1.8rem;
+    color: #4B28BF;
+    text-decoration: underline;
+ text-decoration-thickness: 5px;
+    text-decoration-color: white;
+    text-underline-position: under;
+
+}
+.color-me:hover {
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+  margin-left: 1.8rem;
+    color: #4B28BF;
+    text-decoration: underline;
+   text-decoration-thickness: 5px;
+    text-decoration-color: white;
+    text-underline-position: under;
+
+}
+.color-it {
+  text-align: left;width: 69px;
+height: 27px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 0px;
+color: #F2EAE8;
+opacity: 1;
+
+}
+
+.color-it:hover{
+    color: white;
+    width: 69px;
+height: 27px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+}
+
+
+.positioning{
+
+  margin-left: 1.8rem;
+
+}
+
+.pos{
+  background: transparent linear-gradient(180deg, #FA292B 0%, #FB3D3F 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-left: 4rem;
+  padding-right: 9rem;
+}
+
+.fr{
+  margin: 0 0 0 0;
+  background: transparent linear-gradient(359deg, #FFFFFF 0%, #FA292B 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+@keyframes fadeIn{
+  0%{opacity:0;}
+   50%{opacity: 0.25}.
+  100%{opacity:0.5;}
+  }
+.mainiamge{
+  padding-left: 5rem;
+  width: 750px;
+}
+
+
+.title1{
+  /* width: 473px;
+height: 86px; */
+text-align: left;
+font: normal normal 800 4.3rem/4.1rem Montserrat;
+letter-spacing: 1.75px;
+color: #303030;
+opacity: 1;
+height: 5.5rem;
+animation:fadeIn 2.5s;
+}
+
+
+.title2{
+  /* width: 640px;
+height: 225px; */
+text-align: left;
+font: normal normal 800 6.7rem/4rem Montserrat;
+letter-spacing: 3.63px;
+color: #F2E9E7;
+opacity: 1;
+font-size : 6.3rem;
+animation:fadeIn 1.5s;
+}
+
+
+.title3{
+  /* width: 175px;
+height: 86px; */
+text-align: left;
+font: normal normal 800 5.6rem/4rem Montserrat;
+letter-spacing: 2.1px;
+color: #303030;
+opacity: 1;
+font-size : 3rem;
+animation:fadeIn 3s;
+
+}
+.title4{
+  /* width: 852px;
+height: 152px; */
+text-align: left;
+font: normal normal 800 5.9rem/4rem Montserrat;
+letter-spacing: 3.13px;
+color: #303030;
+opacity: 1;
+font-size : 5rem;
+animation:fadeIn 4s;
+}
+.p1{
+  margin-top: 8rem;
+  padding-left: 6rem;
+}
+
+
+.front{
+  margin: 0 0 0 0;
+  padding-left: 8rem;
+  padding-top: 9rem;
+  background: transparent linear-gradient(359deg, #FFFFFF 0%, #FA292B 100%) 0% 0% no-repeat padding-box;
+height: 70rem;
+   opacity: 1;
+  opacity: 1;
+
+}
+
+
+
+
+.mainimage{
+
+  position: relative;
+  left: 13.1rem;
+  top: -23rem;
+  height: 68.75rem;
+}
+
+
+.about{
+  margin-top: 5rem;
+  margin-left: 0 ;
+  margin-right: 0;
+}
+
+.abou{
+  font: normal normal medium 24px/33px Montserrat;
+letter-spacing: 0px;
+color: #3821C0;
+opacity: 1;
+font-size: 1.1rem;
+margin-top: 3rem;
+padding-left: 8rem;
+
+
+}
+.aboutbtn{
+  background: transparent linear-gradient(180deg, #FA292B 0%, #CC2729 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+border-color: #FA292B;
+
+}
+
+.aboutbtn:hover{
+  /* background: transparent linear-gradient(180deg, #FA292B 0%, #CC2729 100%) 0% 0% no-repeat padding-box; */
+  background: white;
+color: #3821C0;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+border-color: #FA292B;
+
+}
+.imgdiv{
+  padding-right: 8rem;
+  text-align: center;
+}
+
+/* Title Image */
+
+
+
+
+/* features */
+
+
+
+
+/* testimonial section */
+#testimonials{
+
+  margin-top: 5rem;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+.testimonial-image{
+  margin-top: 2rem;
+  width: 10%;
+  border-radius: 100%;
+}
+
+.col{
+  background-color: #FA292B;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.aboutheading{
+  font-weight: bolder;
+}
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 3rem;
+  color: #3821C0;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 3rem;
+  color: #FA292B;
+}
+.vimglogo{
+  height: 100px;
+}
+
+.vimg{
+  height: 500px;
+}
+.footer{
+  margin-left: 0;
+  margin-right: 0;
+  background: transparent linear-gradient(0deg, #361EC0 0%, #E6E3F7 85%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+.leftfoot{
+  margin-top: 18rem;
+  padding-left: 5rem;
+}
+
+.clgname{
+  font: normal normal medium 20px/37px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.socialH{
+  margin-right: 3rem;
+}
+
+
+
+#onhover {
+  display: none;
+}
+#surround:hover span[id="initial"] {
+  display: none;
+}
+#surround:hover span[id="onhover"] {
+  display: block;
+}
