@@ -292,7 +292,111 @@ opacity: 1;
   margin-right: 3rem;
 }
 
+@media screen and (max-width: 800px){
+  #maini{
+    display: none;
+  }
+  #footi{
+    display: none;
+  }
 
+  .p1{
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  .title1{
+    /* width: 473px;
+  height: 86px; */
+  text-align: left;
+  font: normal normal 800 4.3rem/4.1rem Montserrat;
+  letter-spacing: 1.75px;
+  color: #303030;
+  opacity: 1;
+  height: 5.5rem;
+  animation:fadeIn 2.5s;
+  }
+
+
+  .title2{
+    /* width: 640px;
+  height: 225px; */
+  text-align: left;
+  font: normal normal 800 4.7rem/4rem Montserrat;
+  letter-spacing: 3.63px;
+  color: #F2E9E7;
+  opacity: 1;
+  font-size : 4.3rem;
+  animation:fadeIn 1.5s;
+  }
+
+
+  .title3{
+    /* width: 175px;
+  height: 86px; */
+  text-align: left;
+  font: normal normal 800 3.0rem/4rem Montserrat;
+  letter-spacing: 2.1px;
+  color: #303030;
+  opacity: 1;
+  font-size : 4rem;
+  animation:fadeIn 3s;
+
+  }
+  .title4{
+    /* width: 852px;
+  height: 152px; */
+  text-align: left;
+  font: normal normal 800 5.9rem/4rem Montserrat;
+  letter-spacing: 3.13px;
+  color: #303030;
+  opacity: 1;
+  font-size : 4rem;
+  animation:fadeIn 4s;
+  }
+
+
+  .positioning{
+
+    margin-left: 0rem;
+
+  }
+
+  .abou{
+    font: normal normal medium 24px/33px Montserrat;
+  letter-spacing: 0px;
+  color: #3821C0;
+  opacity: 1;
+  font-size: 1.1rem;
+  margin-top: 3rem;
+  padding-left: 2rem;
+
+
+  }
+  .imgdiv{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+  }
+  .leftfoot{
+    margin-top: 5rem;
+    padding-left: 2rem;
+  }
+  .vimglogo{
+    height: 50px;
+  }
+
+
+  .socialH{
+    margin-right: 2rem;
+
+    height: 1.5rem;
+  }
+  .sociai{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+}
 
 #onhover {
   display: none;
